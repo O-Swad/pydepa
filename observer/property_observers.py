@@ -1,3 +1,6 @@
+""" Property observer example """
+
+
 class Event(list):
 
     def __call__(self, *args, **kwargs):
