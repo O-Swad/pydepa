@@ -46,6 +46,7 @@ class TrafficAuthority:
                 self.person.property_changed.remove(
                     self.person_changed
                 )
+                
 
 if __name__ == '__main__':
     p = Person()
